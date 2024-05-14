@@ -161,7 +161,7 @@ export default function Home() {
           <IoChatboxEllipses className="text-[var(--main-color)] text-[10vw] md:text-[50px]" />
         </div>
       )}
-      {/* <Home_intro /> */}
+      <Home_intro />
       <Products />
     </>
   );
