@@ -19,14 +19,14 @@ const Home_intro = () => {
         width={1000}
         height={1000}
         priority
-        className="absolute top-0 left-0 z-10 w-full h-full object-cover hidden md:block"
+        className="absolute top-0 left-0 z-10 w-full h-full object-cover hidden lg:block"
       />
       <Image
         src="/images/home_bg_cover_pe.png"
         width={1000}
         height={1000}
         priority
-        className="absolute top-0 left-0 z-10 w-full h-full object-cover block md:hidden"
+        className="absolute top-0 left-0 z-10 w-full h-full object-cover block lg:hidden"
       />
     </div>
   );
