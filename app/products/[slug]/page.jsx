@@ -43,7 +43,6 @@ export default function Products({ params }) {
     dispatch(addItem(product));
     toast({
       title: `${product.product_name}(${product.flavor} x ${product.quantity} has added to cart)`,
-      description: "Friday, February 10, 2023 at 5:57 PM",
     });
   };
 

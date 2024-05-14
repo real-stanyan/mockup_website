@@ -58,7 +58,7 @@ const Header = () => {
       <div className="flex md:hidden w-full h-[20%] justify-evenly text-[3vw] items-center">
         <Link
           href="/journal"
-          className={pathname === "journal" ? "font-bold" : ""}
+          className={pathname === "/journal" ? "font-bold" : ""}
         >
           JOURNAL
         </Link>
