@@ -48,33 +48,39 @@ export default function Products({ params }) {
   };
 
   return (
-    <div className="w-[100vw] flex justify-between px-[10vw] py-10 font-Oswald gap-8">
+    <div className="w-[100vw] flex flex-col md:flex-row justify-between px-[10vw] py-10 font-Oswald gap-8">
       <Image
         src={data.image_url}
         width={1000}
         height={1000}
-        className="w-[40vw] rounded-xl"
+        className="w-[80vw] md:w-[40vw] rounded-xl"
         alt={data.product_name}
       />
       <div className="flex flex-col gap-3 justify-between">
-        <h1 className="text-[3vw] whitespace-nowrap">{data.product_name}</h1>
-        <p className="place-self-end  text-[1.5vw] text-[var(--primry-color)]">
+        <h1 className="text-[5vw] md:text-[3vw] whitespace-nowrap">
+          {data.product_name}
+        </h1>
+        <p className="place-self-end text-[3vw] md:text-[1.5vw] text-[var(--primry-color)]">
           {data.price_detail}
         </p>
-        <h1 className="text-[1.4vw] font-semibold">Product Features</h1>
+        <h1 className="text-[4vw] md:text-[1.4vw] font-semibold">
+          Product Features
+        </h1>
         <ul>
           {data &&
             data.product_features?.map((item, i) => (
-              <li key={i} className="pl-8 text-[1.5vw]">
+              <li key={i} className="pl-8 text-[3vw] md:text-[1.5vw]">
                 {item}
               </li>
             ))}
         </ul>
-        <h1 className="text-[1.4vw] font-semibold">Packaging Design</h1>
+        <h1 className="text-[4vw] md:text-[1.4vw] font-semibold">
+          Packaging Design
+        </h1>
         <ul>
           {data &&
             data.packaging_design?.map((item, i) => (
-              <li key={i} className="pl-8 text-[1.5vw]">
+              <li key={i} className="pl-8 text-[3vw] md:text-[1.5vw]">
                 {item}
               </li>
             ))}

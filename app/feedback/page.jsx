@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const Feedback = () => {
   return (
-    <div className="flex flex-col items-center w-[100vw] gap-8 py-[10vw]">
+    <div className="flex flex-col items-center w-[100vw] gap-8 py-[10vw] px-[5vw]">
       <div className="grid w-full max-w-sm items-center gap-1.5">
         <Label htmlFor="name">Your Name</Label>
         <Input type="name" id="name" placeholder="Your Name" />

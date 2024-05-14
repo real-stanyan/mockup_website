@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "The Benefits of Marine Collagen",
+    "date": "January 10, 2023",
+    "content": "Discover how marine collagen can enhance your beauty routine and support overall health.",
+    "imageUrl": "/blog_cover/The_Benefits_of_Marine_Collagen.webp"
+  },
+  {
+    "id": 2,
+    "title": "Healthy Habits for Glowing Skin",
+    "date": "February 15, 2023",
+    "content": "Learn about the daily habits that can help you achieve radiant and healthy skin.",
+    "imageUrl": "/blog_cover/Healthy_Habits_for_Glowing_Skin.webp"
+  },
+  {
+    "id": 3,
+    "title": "Nutrition Tips for Hair Growth",
+    "date": "March 5, 2023",
+    "content": "Explore the essential nutrients and foods that promote hair growth and strength.",
+    "imageUrl": "/blog_cover/Nutrition_Tips_for_Hair_Growth.webp"
+  }
+]

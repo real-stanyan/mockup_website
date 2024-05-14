@@ -18,12 +18,14 @@ const Home_intro = () => {
         src="/images/home_bg_cover_pc.png"
         width={1000}
         height={1000}
+        priority
         className="absolute top-0 left-0 z-10 w-full h-full object-cover hidden md:block"
       />
       <Image
         src="/images/home_bg_cover_pe.png"
         width={1000}
         height={1000}
+        priority
         className="absolute top-0 left-0 z-10 w-full h-full object-cover block md:hidden"
       />
     </div>
