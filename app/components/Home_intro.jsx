@@ -16,15 +16,15 @@ const Home_intro = () => {
       </video>
       <Image
         src="/images/home_bg_cover_pc.png"
-        width={1000}
-        height={1000}
+        width={2000}
+        height={2000}
         priority
         className="absolute top-0 left-0 z-10 w-full h-full object-cover hidden lg:block"
       />
       <Image
         src="/images/home_bg_cover_pe.png"
-        width={1000}
-        height={1000}
+        width={2000}
+        height={2000}
         priority
         className="absolute top-0 left-0 z-10 w-full h-full object-cover block lg:hidden"
       />
